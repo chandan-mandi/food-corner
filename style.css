@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 100%;
+}
+section {
+    padding: 100px 80px;
+    height: 700px;
+}
+.top-area {
+    display: flex;
+    justify-content: space-between;
+}
+.top-text {
+    margin-top: 100px;
+    width: 50%;
+}
+.top-text h1 {
+    margin-bottom: 25px;
+}
+.top-text span {
+    color: #FE4C2F;
+}
+.top-image img {
+    width: 100%;
+    float: right;
+}
+.btn {
+    text-decoration: none;
+    padding: 8px 23px;
+    background-color: #FE4C2F;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 25px;
+    display: inline-block;
+}
+.about-section {
+    background: url(food-network/images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    width: 100%;
+}
+
+.about-image img {
+    width: 335px;
+}
+.about-image {
+    width: 50%;
+}
+
+.about-text {
+    width: 50%;
+    padding-right: 200px;
+}
+.about-text h2 {
+    margin-bottom: 25px;
+}
+.about-text p {
+    line-height: 1.75;
+}
+.recipie-header {
+    text-align: center;
+}
+.recipie-header h2 {
+    font-size: 45px;
+}
+.recipie-header p {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.recipie-boxes {
+    display: flex;
+    justify-content: center;
+}
+.recipie-card {
+    max-width: 225px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 35px 20px;
+}
+.recipie-card h4 {
+    margin: 10px 0;
+}
+.price {
+    background-color: brown;
+    display: inline;
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 19px;
+    color: #fff;
+}
+.recipie-card p {
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+.discount-section {
+    background: url(food-network/images/shapes/bg-02.jpg);
+    background-attachment: fixed;
+    padding: 40px 0px 0px 0px;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center center;
+    height: 465px;
+}
+.discount-area {
+    width: 100%;
+    display: flex;
+}
+
+.discount-text {
+    width: 43%;
+    padding: 40px;
+}
+
+.discount-img {
+    width: 56%;
+    margin-top: -105px;
+    margin-bottom: 0;
+    right: 0;
+}
+
+.discount-text h2 {
+    font-size: 70px;
+    color: #fff;
+    padding: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+.fw-300 {
+    font-weight: 300;
+    font-size: 60px;
+}
+.fc-red {
+    color: #E3000E;
+    font-weight: 400;
+    font-size: 60px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+footer h4 {
+    font-size: 28px;
+    color: #534444;
+}
+footer span {
+    color: #FE4C2F
+}
+footer p {
+    color: #fff;
+    margin-top: 10px;
+}
