@@ -121,7 +121,7 @@ section {
     opacity: 0.7;
 }
 .discount-section {
-    background: url(/images/shapes/bg-02.jpg);
+    background: url(../images/shapes/bg-02.jpg);
     background-attachment: fixed;
     padding: 40px 0px 0px 0px;
     margin-top: 100px;
